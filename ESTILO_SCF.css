@@ -1,0 +1,103 @@
+/* --- Estilos generales --- */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #FFC300, #FFE680);
+  color: #002200;
+}
+
+/* --- Encabezado --- */
+.header {
+  background-color: #006400;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.7rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* --- Navegación --- */
+.navbar {
+  background-color: #004d00;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #FFC300;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* --- Contenido principal --- */
+.main-content {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-content h2 {
+  color: #006400;
+  margin-top: 1.5rem;
+}
+
+.main-content ul {
+  padding-left: 1.2rem;
+}
+
+/* --- Botón --- */
+.btn {
+  background-color: #FFC300;
+  color: #003300;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffda47;
+}
+
+/* --- Imágenes y multimedia --- */
+img, iframe, video, audio {
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* --- Pie de página --- */
+.footer {
+  background-color: #004d00;
+  color: #FFC300;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+}
